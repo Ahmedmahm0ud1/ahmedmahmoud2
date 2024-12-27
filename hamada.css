@@ -1,0 +1,40 @@
+.teamy{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+
+.card{
+
+box-shadow: 10px 10px 8px gray;
+margin: 20px;
+}
+
+
+
+.card img:hover{
+    filter: brightness(100%);
+}
+.card .card-body{
+    text-align: center;
+}
+
+
+.hamada{
+
+display: flex;
+justify-content: space-around;
+margin: 20px;
+filter: grayscale(100%);
+padding: 10px;
+transition: .5s;
+}
+
+
+.hamada:hover{
+
+    filter: grayscale(0%);
+
+}
